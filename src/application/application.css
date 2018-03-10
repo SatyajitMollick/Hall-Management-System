@@ -1,0 +1,21 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.lbl{
+	-fx-text-fill:white ;
+	-fx-font-size:20px;
+}
+.txt{
+	-fx-font-size:14px;
+	-fx-background-radius:7px;
+}
+.btn{
+	-fx-background-color:rgb(225,132,0);
+	-fx-text-fill:white;
+	-fx-font-size:15px;
+}
+.btnt{
+	-fx-background-color:transparent ;
+}
+.combo{
+	-fx-font-size:14px;
+}

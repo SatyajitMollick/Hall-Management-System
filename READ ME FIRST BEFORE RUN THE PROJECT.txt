@@ -1,0 +1,10 @@
+Create a Database table admin(Name varchar,ID int,primary key(ID));
+and insert admin name and admin id manualy in database.
+
+Create a Database table meal_rate(meal varchar,price int,primary key(meal));
+and insert various number of item name with price like Fish price 10.
+
+Create a Database table order_launch(Roll int,Meal varchar,Meal2 varchar,Meal3 varchar,Price int,Date date,RoomNo int);
+Create a Database table order_dinner(Roll int,Meal varchar,Meal2 varchar,Meal3 varchar,Price int,Date date,RoomNo int);
+
+Create a Database table user_information(Name varchar,Roll int,Dept varchar,Password int,CPassword int,primary key(Roll ));

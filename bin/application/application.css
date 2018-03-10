@@ -1,0 +1,38 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.tabpane{
+	-fx-min-height:90px;
+	-fx-font-size:20;
+	-fx-tab-min-width:90px;
+	
+	
+}
+.tabpane .tab:selected{
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 7 , 15 );
+	
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #96b946;
+}
+
+.lbl{
+	-fx-text-fill:white ;
+	-fx-font-size:20px;
+}
+.txt{
+	-fx-font-size:14px;
+	-fx-background-radius:7px;
+}
+.btn{
+	-fx-background-color:rgb(225,132,0);
+	-fx-text-fill:white;
+	-fx-font-size:15px;
+}
+.btnt{
+	-fx-background-color:transparent ;
+}
+.combo{
+	-fx-font-size:14px;
+}
